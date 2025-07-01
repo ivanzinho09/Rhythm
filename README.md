@@ -1,5 +1,7 @@
 # Rhythm
 
+A simple rhythm game prototype written in Python. The repository now includes placeholder directories for final art, music, and sound effects as well as a minimal game script that supports scoring, combo tracking, and difficulty settings.
+
 ## Game Roadmap
 
 1. **Pre-production**
@@ -13,7 +15,7 @@
    - Validate the fun factor through early testing.
 
 3. **Production**
-   - Create final art, music, and sound effects.
+   - Create final art, music, and sound effects (see `assets/`).
    - Expand level content and refine game mechanics.
    - Implement scoring, combos, and difficulty settings.
 
@@ -36,3 +38,9 @@
 - Tap or press buttons in sync with the beat during the main section.
 - Accuracy is graded as *Perfect*, *Good*, or *Miss* and rolled into a final rank.
 - Results show ranks like "Superb," "OK," or "Try Again," unlocking the next stage when cleared.
+
+## Directory Overview
+
+- `src/` – Contains the Python prototype. Run `python src/main.py levels/level1.json` to play.
+- `assets/art/`, `assets/music/`, `assets/sfx/` – Placeholders for final game assets.
+- `levels/` – JSON files describing beat timings and level metadata.
