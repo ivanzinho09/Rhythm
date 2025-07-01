@@ -36,3 +36,12 @@
 - Tap or press buttons in sync with the beat during the main section.
 - Accuracy is graded as *Perfect*, *Good*, or *Miss* and rolled into a final rank.
 - Results show ranks like "Superb," "OK," or "Try Again," unlocking the next stage when cleared.
+
+## Running the Prototype
+
+Install dependencies with pip and run the game script:
+
+```bash
+pip install -r requirements.txt
+python prototype/rhythm_game.py
+```
